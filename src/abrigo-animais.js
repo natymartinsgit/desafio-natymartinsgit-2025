@@ -114,4 +114,8 @@ class AbrigoAnimais {
   }
 }
 
+const abrigo = new AbrigoAnimais();
+// Mostrar no console
+console.log("Lista de animais no abrigo:");
+console.log(abrigo.animais);
 export { AbrigoAnimais as AbrigoAnimais };
